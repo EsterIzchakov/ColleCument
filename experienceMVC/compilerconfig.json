@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "Content/Logo.css",
+    "inputFile": "Content/Logo.scss"
+  },
+  {
+    "outputFile": "Content/Login.css",
+    "inputFile": "Content/Login.scss"
+  },
+  {
+    "outputFile": "Content/Dashboard.css",
+    "inputFile": "Content/Dashboard.scss"
+  }
+]

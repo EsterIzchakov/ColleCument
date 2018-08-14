@@ -1,0 +1,32 @@
+﻿
+th {
+    text-align: right;
+}
+
+td i {
+    text-align: center;
+}
+
+input {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 9%;
+
+    .HeaderOfOptrions {
+        margin-top:3vh;
+        margin-bottom:4vh;
+        button{
+            margin-left:3vw;
+            background-color:#f8e3e3;
+            width:8vw
+        }
+        select {
+        }
+    }
+}

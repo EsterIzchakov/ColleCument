@@ -1,0 +1,67 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+
+body, html {
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 14vh;
+    background: -webkit-linear-gradient(left,#ffffff,#f8e3e3,#f65858,#fa0d0d,#7a0808,#4d1a1a /*,#000000*/ );
+
+    .container {
+        #NameProjectWrapper {
+            font-family:Arial Black;
+            
+            cursor:default;
+            #NameProjectCollect {
+                color:#7a0808;
+                font-size:3vw;
+                margin-top:13%;
+            }
+            #NameProjecUment{
+                color:#fa0d0d;
+                font-size:3vw;
+                margin-top:13%;
+            }
+            small{
+                color:#4d1a1a;
+                font-size:1.2vw;
+                margin-left:2%;
+                font-family:Century;
+                
+            }
+        }
+
+
+        .dropdown {
+            width: 9.5vw;
+            margin-top:10%;
+            #dropdown-toggle {
+                border: none;
+                background-color: transparent;
+                color: white;
+                font-size: 3vh;
+
+                .caret {
+                    border-left: 8px solid transparent;
+                    border-right: 8px solid transparent;
+                    border-top: 8px solid #ffffff;
+                }
+            }
+
+            #DropdownHeader {
+                color: white;
+                cursor: default;
+                font-size: 1vw;
+            }
+
+            li {
+                font-size: 2vh;
+            }
+        }
+    }
+}

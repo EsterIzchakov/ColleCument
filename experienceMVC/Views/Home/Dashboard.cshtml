@@ -1,0 +1,118 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+}
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<link href="~/Content/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Dashboard.css" rel="stylesheet" />
+<link href="~/Content/Dashboard.min.css" rel="stylesheet" />
+<body>
+    <div class="container">
+        @*<h2>Dashboard</h2>*@
+        <div class="HeaderOfOptrions row">
+            <button class="btn col-sm-2 " id="CreateNewFromTamplate">צור קובץ מתבנית</button>
+            <button class="btn col-sm-2 " id="CreateNewTemplate">צור תבנית</button>
+            <button class="btn col-sm-2" id="CreateNewFile">צור חדש</button>
+            <div class="col-sm-2 col-sm-offset-2" dir="rtl">
+                <label >בחר אפשרות חיפוש</label>
+                <select class="form-control " name="SearchSelect" dir="rtl">
+
+                    <option  id="FileName">שם קובץ</option>
+                    <option  id="CreatorName">שם יוצר הקובץ</option>
+                    <option  id="DateCreate">תאריך יצירה</option>
+                    <option  id="UpdateDate">תאריך עדכון</option>
+                    <option  id="Category">קטגוריה</option>
+                </select>
+            </div>
+        </div>
+        <table class="table" dir="rtl">
+            <thead>
+                <tr>
+                    <th>שיתוף</th>
+                    <th>מסמך</th>
+                    <th>שם מסמך</th>
+                    <th>שם יוצר</th>
+                    <th>תאור  מסמך</th>
+                    <th>תאריך יצירה</th>
+                    <th>תאריך עדכון</th>
+                    <th>קטגוריה</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td><i class="fa fa-ellipsis-h btn" aria-hidden="true" style="color:#110909" data-toggle="modal" data-target="#myModal"></i></td>
+                    <td><i class="fa fa-file-word-o" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-user-circle-o" style="color:#ffffff"></i></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-ellipsis-h btn" aria-hidden="true" style="color:#110909" data-toggle="modal" data-target="#myModal"></i></td>
+                    <td><i class="fa fa-file-word-o" aria-hidden="true"></i></td>
+                    <td>@*<i class="fa fa-user-o" aria-hidden="true"></i>*@</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-ellipsis-h btn" aria-hidden="true" style="color:#110909" data-toggle="modal" data-target="#myModal"></i></td>
+                    <td><i class="fa fa-file-word-o" aria-hidden="true"></i></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa fa-ellipsis-h btn" aria-hidden="true" style="color:#110909" data-toggle="modal" data-target="#myModal"></i></td>
+                    <td><i class="fa fa-file-word-o" aria-hidden="true"></i></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--Modal of sharing-->
+    <div class="modal fade" id="myModal" role="dialog" dir="rtl">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title text-center">תיבת שיתוף</h4>
+                </div>
+                <div class="modal-body">
+                    <p> שיתוף וקביעת הרשאות </p>
+                    <p>שיתוף קובץ במייל</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+<script>
+
+</script>
+

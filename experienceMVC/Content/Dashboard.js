@@ -1,0 +1,4 @@
+﻿
+$("#exp").click(function () {
+    $(this).
+});
